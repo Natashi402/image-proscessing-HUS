@@ -37,7 +37,6 @@ for i = 3: H - 2
         B(i-2,j-2) = median(mea);
         
     endfor
-    i
 endfor
 
-imwrite(B,"../result/hieubui.png");
+imwrite(uint8(B),"../result/hieubui.png");
